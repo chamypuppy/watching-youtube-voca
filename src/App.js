@@ -1,7 +1,7 @@
 import { DayList } from "./component/DayList";
 import { Day } from "./component/Day";
 import { Header } from "./component/Header";
-import { BrowserRouter, Route, Routes, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { EmptyPage } from "./component/EmptyPage";
 
 function App() {

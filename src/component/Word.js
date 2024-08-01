@@ -5,6 +5,9 @@ export const Word = ({ word }) => {
     const [isShow, setIsShow] = useState(false);
     const [isDone, setIsDone] = useState(word.isDone);
 
+    const { day } = word.day;
+    const [isDay, setIsDay] = useState(day);
+
     function toggleShow () {
         setIsShow(!isShow);
     }
@@ -14,7 +17,7 @@ export const Word = ({ word }) => {
     }
 
     return(
-        <tr className={isDone ? "off" : ""}>
+        <tr className={isDone ? "off" : ""} className={isDay ?}>
             <td>
                 <input type="checkbox" checked={isDone} onChange={toggleDone}/>
             </td>

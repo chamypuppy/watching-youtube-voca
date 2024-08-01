@@ -5,8 +5,16 @@ export const DayList = () => {
     const [days, setDays] = useState([]); // 처음에는 빈 배열을 가져와서 API에서 리스트 가져오기
 
     useEffect(() => { // useEffect 목적: 렌더링이 되고 [API를 호출]한다!
-        console.log("Count change")
-    }, []) // 빈 배열을 넣으면 (상태값 변경과 무관하게) 렌더링이 완료되고 최초에 한 번만 실행된다.
+        // API 비동기 통신을 위해서 fetch 사용
+        fetch("http://localhost:3002/days") // API 경로 적어줌 > promise 반환
+        .then(res => {  // res는 http 응답
+            return res.json(); // res가 json이 아니라서 json으로 변환 > promise 반환
+        })
+        .then(data => {
+            setDays(data);
+        })
+
+    }, []) // 지금은 빈 배열이어서 한 번만 실행됨
 
     return(
             <ul className="list_day">
