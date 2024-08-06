@@ -1,7 +1,11 @@
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { useFetch } from "./hooks/useFetch";
 
 export const DayList = () => {
+
+    const days = useFetch("http://localhost:3002/days");
+    
+    /*
     const [days, setDays] = useState([]); // 처음에는 빈 배열을 가져와서 API에서 리스트 가져오기
 
     useEffect(() => { // useEffect 목적: 렌더링이 되고 [API를 호출]한다!
@@ -15,6 +19,7 @@ export const DayList = () => {
         })
 
     }, []) // 지금은 빈 배열이어서 한 번만 실행됨
+    */
 
     return(
             <ul className="list_day">

@@ -10,7 +10,27 @@ export const Word = ({ word }) => {
     }
 
     function toggleDone () {
-        setIsDone(!isDone);
+        //setIsDone(!isDone);
+        fetch(`http://localhost:3002/words/${word.id}`,{
+            method: "PUT",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+                ...word,
+                isDone: !isDone
+            }),
+        })
+        .then(res => {
+            if(res.ok) {
+                setIsDone(!isDone) // JSON에서도 바꿨지만, State에서도 바꿔줘야 하는구나...
+            }
+        });
+    }
+
+    // 삭제버튼 > 콘솔창 > 그 단어의 id를 가지고와서 > 삭제해주는 방식?
+    function del(){
+
     }
 
     return(
