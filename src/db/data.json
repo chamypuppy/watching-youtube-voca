@@ -15,6 +15,18 @@
     {
       "day": 4,
       "id": "4"
+    },
+    {
+      "id": "040e",
+      "day": 5
+    },
+    {
+      "id": "b1a9",
+      "day": 6
+    },
+    {
+      "id": "552e",
+      "day": 7
     }
   ],
   "words": [
@@ -73,6 +85,27 @@
       "kor": "사과",
       "isDone": false,
       "id": "12"
+    },
+    {
+      "id": "be75",
+      "day": "2",
+      "eng": "desk",
+      "kor": "책상",
+      "isDone": false
+    },
+    {
+      "id": "59e0",
+      "day": "3",
+      "eng": "pudding",
+      "kor": "푸딩",
+      "isDone": false
+    },
+    {
+      "id": "e336",
+      "day": "4",
+      "eng": "candy",
+      "kor": "사탕",
+      "isDone": false
     }
   ]
 }
