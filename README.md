@@ -1,6 +1,7 @@
-# 리액트로 단어암기장 만들기
+# 🗒 React VOCA
 
-리액트 도서 + Youtube 코딩앙마님의 <<React js 강좌>>로 리액트를 공부하고 실습한 코드를 실은 레포지토리입니다.
+리액트 도서 + Youtube 코딩앙마님의 <<React js 강좌>>로 리액트를 공부하고 실습한 코드를 실은 레포지토리입니다. <br/>
+
 실습 프로젝트는 [리액트로 단어암기장 만들기 - VOCA] 이고,
 Netlify로 server에 build하였습니다.
 https://66d5827d7ea1d4f6af4a344c--glowing-salmiakki-cb9c21.netlify.app/
