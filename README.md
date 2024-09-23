@@ -1,17 +1,17 @@
 # 🗒 React VOCA
 
-리액트 도서 + Youtube 코딩앙마님의 <<React js 강좌>>로 리액트를 공부하고 실습한 코드를 실은 레포지토리입니다. <br/>
+### 개요
+```리액트 도서 + Youtube 코딩앙마```님의 <h3><React js 강좌></h3>로 리액트를 공부하고 실습한 코드를 실은 레포지토리입니다. <br/><br/>
 
-실습 프로젝트는 [리액트로 단어암기장 만들기 - VOCA] 이고 <br/> <br/>
-Netlify로 server에 build하였습니다.<br/> <br/>
+실습 프로젝트는 [리액트로 단어암기장 만들기 - VOCA] 이고 Netlify로 서버에 build하였습니다.<br/><br/>
 https://66d5827d7ea1d4f6af4a344c--glowing-salmiakki-cb9c21.netlify.app/
-<br/>
+<br/><br/>
 
 
 ### 학습 정리 블로그
 https://coda.io/@qkfqkxhtm9/qkfqkxhtm9-coda
 ```리액트 페이지 > 리액트 표 40번째 줄```의 react youtube VOCA 의 <strong>Notes</strong>에서 열람 가능합니다.
-<br/>
+<br/><br/>
 
 ### 아직 해결되지 않은 문제점
 빌드는 완료하였으나 Day 추가 버튼을 클릭하면 아무 일도 일어나지 않는 문제점을 확인하였습니다. <br/> <br/>
