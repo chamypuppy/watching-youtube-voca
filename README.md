@@ -9,7 +9,7 @@ https://66d5827d7ea1d4f6af4a344c--glowing-salmiakki-cb9c21.netlify.app/
 
 
 ### 학습 정리 블로그
-https://coda.io/@qkfqkxhtm9/qkfqkxhtm9-coda<br/>
+https://coda.io/@qkfqkxhtm9/qkfqkxhtm9-coda<br/><br/>
 ```리액트 페이지 > 리액트 표 40번째 줄```의 react youtube VOCA 의 <strong>Notes</strong>에서 열람 가능합니다.
 <br/><br/>
 
