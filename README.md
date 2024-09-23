@@ -1,7 +1,7 @@
 # 🗒 React VOCA
 
 ### 개요
-```리액트 도서 + Youtube 코딩앙마```님의 <h3><React js 강좌></h3>로 리액트를 공부하고 실습한 코드를 실은 레포지토리입니다. <br/><br/>
+```리액트 도서 + Youtube 코딩앙마```님의 <strong><React js 강좌></strong>로 리액트를 공부하고 실습한 코드를 실은 레포지토리입니다. <br/><br/>
 
 실습 프로젝트는 [리액트로 단어암기장 만들기 - VOCA] 이고 Netlify로 서버에 build하였습니다.<br/><br/>
 https://66d5827d7ea1d4f6af4a344c--glowing-salmiakki-cb9c21.netlify.app/
